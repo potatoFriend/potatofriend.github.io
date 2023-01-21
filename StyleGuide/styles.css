@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300;400;600&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 2px;
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  color: var(--Cream);
+}
+
+:root {
+  --Cream: #EAF2EF;
+  --Magenta: #912F56;
+  --Purple: #521945;
+  --Burgundy: #361F27;
+  --SmokyBlack: #0D090A;
+}
+
+body {
+  background-color: var(--SmokyBlack);
+}
+
+.breadcrumb li {
+  display: inline-block;
+  background-color: var(--Cream);
+  
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.breadcrumb li a {
+  text-decoration: none;
+  color: var(--SmokyBlack);
+}
+
+.breadcrumb li:hover {
+  background-color: var(--Magenta);
+}
+
+header {
+  text-align: center;
+}
+
+
+h1 {
+  text-align: center;
+  margin: 20px auto;
+  color: var(--Cream);
+  letter-spacing: 0.2em;
+  filter: drop-shadow(0px 0px 10px var(--Cream))
+}
+
+main section {
+  margin: 40px auto;
+  width: 75%;
+  height: fit-content;
+  border: 4px solid var(--Cream);
+  border-radius: 10px;
+  background-color: var(--SmokyBlack);
+  filter: drop-shadow(0px 0px 8px var(--Cream))
+}
+
+#Colours {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#Colours div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  height: 200px;
+  width: 200px;
+  margin: 20px 20px;
+  border: 2px solid var(--Cream);
+  border-radius: 3px;
+}
+
+main section h2 {
+  width: 100%;
+  color: var(--Cream);
+  margin: 20px;
+}
+
+#Colours div p {
+  width: 196px;
+  text-align: center;
+  margin: 0 0;
+  line-height: 1.5em;
+  color: white;
+  background-color: black;
+  font-weight: 400;
+}
+
+#colour1 {
+  background-color: var(--Cream);
+}
+
+#colour2 {
+  background-color: var(--Magenta);
+}
+
+#colour3 {
+  background-color: var(--Purple);
+}
+
+#colour4 {
+  background-color: var(--Burgundy);
+}
+
+#colour5 {
+  background-color: var(--SmokyBlack);
+}
+
+.code {
+  font-family: monospace;
+  background-color: var(--Cream);
+  color: var(--SmokyBlack);
+}
+
+#Fonts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#Sono p{
+  font-family: "Sono";
+  margin: 10px;
+}
+
+#Ubuntu p{
+  font-family: "Ubuntu";
+  margin: 10px;
+}
+
+.weight300 {
+  font-weight: 300;
+}
+
+.weight400 {
+  font-weight: 400;
+}
+
+.weight400ital {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.weight600 {
+  font-weight: 600;
+}
+
+.weight700 {
+  font-weight: 700;
+}
